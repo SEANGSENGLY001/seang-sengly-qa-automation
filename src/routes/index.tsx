@@ -7,6 +7,7 @@ import { Experience } from "@/components/portfolio/Experience";
 import { Projects } from "@/components/portfolio/Projects";
 import { Strength } from "@/components/portfolio/Strength";
 import { Contact } from "@/components/portfolio/Contact";
+import { MobileNav } from "@/components/portfolio/MobileNav";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -31,7 +32,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <main className="relative bg-background text-foreground antialiased">
+    <main className="relative bg-background text-foreground antialiased pb-24 md:pb-0">
       <Nav />
       <Hero />
       <About />
@@ -40,6 +41,7 @@ function Index() {
       <Projects />
       <Strength />
       <Contact />
+      <MobileNav />
     </main>
   );
 }
