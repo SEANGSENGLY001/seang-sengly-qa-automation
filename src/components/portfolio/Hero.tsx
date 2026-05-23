@@ -56,12 +56,12 @@ export function Hero() {
               <span className="transition-transform group-hover:translate-x-1">→</span>
             </a>
             <a
-              href="https://www.linkedin.com/in/seang-sengly-120a4a254"
+              href="https://www.linkedin.com/in/seang-sengly-qa-automation-tester"
               target="_blank"
               rel="noopener noreferrer"
               onClick={(e) => {
                 e.preventDefault();
-                window.open("https://www.linkedin.com/in/seang-sengly-120a4a254", "_blank", "noopener,noreferrer");
+                window.open("https://www.linkedin.com/in/seang-sengly-qa-automation-tester", "_blank", "noopener,noreferrer");
               }}
               className="group inline-flex items-center gap-3 border border-border hover:border-gold text-foreground px-7 py-3.5 text-sm uppercase tracking-[0.2em] font-medium transition-all"
             >
