@@ -46,12 +46,12 @@ export function Nav() {
           ))}
         </nav>
         <a
-          href="https://www.linkedin.com/in/seang-sengly-120a4a254"
+          href="https://www.linkedin.com/in/seang-sengly-qa-automation-tester"
           target="_blank"
           rel="noopener noreferrer"
           onClick={(e) => {
             e.preventDefault();
-            window.open("https://www.linkedin.com/in/seang-sengly-120a4a254", "_blank", "noopener,noreferrer");
+            window.open("https://www.linkedin.com/in/seang-sengly-qa-automation-tester", "_blank", "noopener,noreferrer");
           }}
           className="hidden md:inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-gold border border-gold/40 px-4 py-2 hover:bg-gold hover:text-primary-foreground transition-all"
         >

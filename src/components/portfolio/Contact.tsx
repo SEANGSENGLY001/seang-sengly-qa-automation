@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 const links = [
   { label: "Email", value: "seangly.s140@gmail.com", href: "mailto:seangly.s140@gmail.com" },
   { label: "Phone", value: "099 910 930", href: "tel:+855099910930" },
-  { label: "LinkedIn", value: "linkedin.com/in/seang-sengly", href: "https://www.linkedin.com/in/seang-sengly-120a4a254" },
+  { label: "LinkedIn", value: "linkedin.com/in/seang-sengly", href: "https://www.linkedin.com/in/seang-sengly-qa-automation-tester" },
   { label: "GitHub", value: "github.com/SEANGSENGLY001", href: "https://github.com/SEANGSENGLY001" },
 ];
 
@@ -31,12 +31,12 @@ export function Contact() {
             about engineering quality.
           </p>
           <a
-            href="https://www.linkedin.com/in/seang-sengly-120a4a254"
+            href="https://www.linkedin.com/in/seang-sengly-qa-automation-tester"
             target="_blank"
             rel="noopener noreferrer"
             onClick={(e) => {
               e.preventDefault();
-              window.open("https://www.linkedin.com/in/seang-sengly-120a4a254", "_blank", "noopener,noreferrer");
+              window.open("https://www.linkedin.com/in/seang-sengly-qa-automation-tester", "_blank", "noopener,noreferrer");
             }}
             className="mt-10 inline-flex items-center gap-3 bg-gold text-primary-foreground px-8 py-4 text-sm uppercase tracking-[0.2em] font-medium hover:bg-gold-soft transition-all"
           >
