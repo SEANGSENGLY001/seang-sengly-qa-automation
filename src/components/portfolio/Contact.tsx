@@ -31,7 +31,7 @@ export function Contact() {
             about engineering quality.
           </p>
           <a
-            href="mailto:sengly.seang@email.com"
+            href="mailto:seangly.s140@gmail.com"
             className="mt-10 inline-flex items-center gap-3 bg-gold text-primary-foreground px-8 py-4 text-sm uppercase tracking-[0.2em] font-medium hover:bg-gold-soft transition-all"
           >
             Start a conversation →
