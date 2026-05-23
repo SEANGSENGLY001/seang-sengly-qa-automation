@@ -41,6 +41,7 @@ function Index() {
       <Projects />
       <Strength />
       <Contact />
+      <MobileNav />
     </main>
   );
 }
