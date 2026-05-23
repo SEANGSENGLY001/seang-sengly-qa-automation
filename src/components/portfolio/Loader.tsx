@@ -16,8 +16,8 @@ export function Loader() {
         ? Promise.resolve()
         : new Promise<void>((r) => window.addEventListener("load", () => r(), { once: true }));
     const fonts =
-      // @ts-expect-error fonts may not exist in older browsers
-      document.fonts?.ready ?? Promise.resolve();
+      (document as Document & { fonts?: { ready: Promise<unknown> } }).fonts?.ready ??
+      Promise.resolve();
 
     Promise.all([minDelay, ready, fonts]).then(finish);
     // Safety net
