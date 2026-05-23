@@ -56,7 +56,9 @@ export function Hero() {
               <span className="transition-transform group-hover:translate-x-1">→</span>
             </a>
             <a
-              href="/cv.pdf"
+              href="https://www.linkedin.com/in/seang-sengly-120a4a254"
+              target="_blank"
+              rel="noreferrer"
               className="group inline-flex items-center gap-3 border border-border hover:border-gold text-foreground px-7 py-3.5 text-sm uppercase tracking-[0.2em] font-medium transition-all"
             >
               Download CV
