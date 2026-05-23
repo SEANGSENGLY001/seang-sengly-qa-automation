@@ -8,6 +8,7 @@ import { Projects } from "@/components/portfolio/Projects";
 import { Strength } from "@/components/portfolio/Strength";
 import { Contact } from "@/components/portfolio/Contact";
 import { MobileNav } from "@/components/portfolio/MobileNav";
+import { Loader } from "@/components/portfolio/Loader";
 
 export const Route = createFileRoute("/")({
   head: () => ({
