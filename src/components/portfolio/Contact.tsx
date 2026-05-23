@@ -1,10 +1,10 @@
 import { motion } from "motion/react";
 
 const links = [
-  { label: "Email", value: "sengly.seang@email.com", href: "mailto:sengly.seang@email.com" },
-  { label: "Phone", value: "+855 12 345 678", href: "tel:+85512345678" },
-  { label: "LinkedIn", value: "linkedin.com/in/seangsengly", href: "https://linkedin.com" },
-  { label: "GitHub", value: "github.com/seangsengly", href: "https://github.com" },
+  { label: "Email", value: "seangly.s140@gmail.com", href: "mailto:seangly.s140@gmail.com" },
+  { label: "Phone", value: "099 910 930", href: "tel:+855099910930" },
+  { label: "LinkedIn", value: "linkedin.com/in/seang-sengly", href: "https://www.linkedin.com/in/seang-sengly-120a4a254" },
+  { label: "GitHub", value: "github.com/SEANGSENGLY001", href: "https://github.com/SEANGSENGLY001" },
 ];
 
 export function Contact() {
